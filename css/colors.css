@@ -1,0 +1,14 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --button-color:hsl( 0, 84%, 44%) ;
+    --primary-color: #E61414;
+    --second-color: #7F7F9D;
+    --text-color: rgb(79, 79, 90);
+    --scrollbar-color: #eeeeee8c;
+    --third-color: #ffffff62;
+    --links-color: #999391;
+    --border-color: #ececec;
+    --bg-color: #EEEEEE;
+    --card-color: #F5F5F5;
+}

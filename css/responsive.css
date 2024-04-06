@@ -1,0 +1,214 @@
+/* home Section Responsiveness */
+
+@media screen and (max-width: 1200px) {
+    #home .container {
+        width: 90%;
+    }
+
+    #home .nav-links {
+        padding: 45px 0;
+    }
+
+    #home .navbar .nav-links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #home .home-section {
+        flex-direction: column-reverse;
+        padding-top: 100px ;
+    }
+
+    #home .home-image  {
+        width: 80%;
+    }
+
+    #home .home-content {
+        width: 80%;
+        text-align: center;
+    }
+
+    #home .home-content h1 {
+        padding: 40px 12%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #home .home-image  {
+        width: 90%;
+    }
+
+    #home .home-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    #home .home-content h1 {
+        padding: 40px 5%;
+    }
+}
+
+/* For small phones like iphone SE */
+@media screen and (max-width: 350px) {
+    #home .home-content .hero-buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #home .home-content .hero-buttons > * {
+        margin: 20px 0;
+    }
+}
+
+/* Chef Section Responsiveness */
+
+@media screen and (max-width: 1200px) {
+    #chef .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #chef .card-container {
+        flex-wrap: wrap;
+    }
+
+    #chef .card-container .chef-cards {
+        width: 45%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #chef .card-container .chef-cards {
+        width: 100%;
+    }
+}
+
+/* Gallery Section Responsiveness */
+
+@media screen and (max-width: 1200px) {
+    #gallery .container {
+        width: 90%;
+    }
+
+    #gallery .image-container {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #gallery .image-container {
+        height: 2000px;
+    }
+
+    #gallery .image-container .image-cards {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #gallery .image-container {
+        height: 1700px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #gallery .image-container {
+        height: 1600px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #gallery .image-container {
+        height: fit-content;
+    }
+
+    #gallery .image-container .image-cards {
+        width: 80%;
+    }
+}
+
+/* Contact Section Responsiveness */
+
+@media screen and (max-width: 1200px) {
+    #contact .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #contact .name, #contact .email {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #contact .contact-content .contact-items {
+        width: 100%;
+    }
+}
+
+/* Footer Section Responsiveness */
+
+@media screen and (max-width: 1200px) {
+    #footer .container {
+        width: 90%;
+    }
+
+    #footer .footer-content {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #footer .footer-content .left-footer {
+        order: 1;
+        width: 50%;
+    }
+
+    #footer .footer-content .center-footer {
+        order: 3;
+        width: 100%;
+    }
+
+    #footer .footer-content .right-footer {
+        order: 2;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #footer .footer-content .left-footer {
+        order: 1;
+        width: 100%;
+    }
+
+    #footer .footer-content .center-footer {
+        order: 2;
+        width: 100%;
+    }
+
+    #footer .footer-content .right-footer {
+        order: 3;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #footer .center-footer .subscription-area {
+        display: block;
+    }
+
+    #footer .center-footer .subscription-area input {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #footer .center-footer .subscription-area button {
+        width: 100%;
+        display: block;
+    }
+}
