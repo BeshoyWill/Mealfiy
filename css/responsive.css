@@ -50,7 +50,7 @@
 }
 
 /* For small phones */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 460px) {
     #home .home-content .hero-buttons {
         width: 100%;
         display: flex;
