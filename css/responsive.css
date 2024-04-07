@@ -49,8 +49,8 @@
     }
 }
 
-/* For small phones like iphone SE */
-@media screen and (max-width: 350px) {
+/* For small phones */
+@media screen and (max-width: 360px) {
     #home .home-content .hero-buttons {
         width: 100%;
         display: flex;
